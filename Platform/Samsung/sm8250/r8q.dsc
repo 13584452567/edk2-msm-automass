@@ -13,7 +13,7 @@
 !include Platform/Qualcomm/sm8250/sm8250.dsc
 
 [BuildOptions.common]
-  GCC:*_*_AARCH64_CC_FLAGS = -DENABLE_SIMPLE_INIT -DRAM_SIZE=6
+  GCC:*_*_AARCH64_CC_FLAGS =  -DRAM_SIZE=6
 
 [PcdsFixedAtBuild.common]
   gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1080

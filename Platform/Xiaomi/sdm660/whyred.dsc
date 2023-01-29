@@ -13,7 +13,7 @@
 !include Platform/Qualcomm/sdm660/sdm660.dsc
 
 [BuildOptions.common]
-  GCC:*_*_AARCH64_CC_FLAGS = -DENABLE_SIMPLE_INIT
+  GCC:*_*_AARCH64_CC_FLAGS = 
 
 [PcdsFixedAtBuild.common]
   gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1080

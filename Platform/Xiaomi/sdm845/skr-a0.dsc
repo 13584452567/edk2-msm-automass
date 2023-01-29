@@ -11,7 +11,7 @@
   DEVICE_DXE_FV_COMPONENTS       = Platform/Xiaomi/sdm845/skr-a0.fdf.inc
 
 [BuildOptions.common]
-  GCC:*_*_AARCH64_CC_FLAGS = -DENABLE_SIMPLE_INIT -DENABLE_LINUX_SIMPLE_MASS_STORAGE
+  GCC:*_*_AARCH64_CC_FLAGS =  -DENABLE_LINUX_SIMPLE_MASS_STORAGE
 
 [PcdsFixedAtBuild.common]
 
