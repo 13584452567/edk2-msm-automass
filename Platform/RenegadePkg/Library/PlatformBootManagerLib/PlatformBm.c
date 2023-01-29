@@ -670,7 +670,7 @@ VOID EFIAPI PlatformBootManagerAfterConsole(VOID)
   //
   // Enumerate all possible boot options.
   //
-  EfiBootManagerRefreshAllBootOption();
+  // EfiBootManagerRefreshAllBootOption()
 
   //
   // Register Built-in Linux Kernel
