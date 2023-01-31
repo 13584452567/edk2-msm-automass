@@ -23,21 +23,25 @@ jobs:
       matrix:
         device:
           # sm8150
-          - mh2lm
-          - betalm
           - nabu
           - vayu
           - cepheus
           - hotdog
           - guacamole
+          - guacamoleb
+          - nx606j
+          - nx616j
+          - nx619j
+          - m1892
+          - m1882
           # sdm845
           - polaris
+          - beryllium
+          - dipper
           - perseus
-          # sm7325
-          - mona
-          - lisa
           # msm8998
           - cheeseburger
+          - dumpling
           - sagit
 
     # Steps represent a sequence of tasks that will be executed as part of the job
