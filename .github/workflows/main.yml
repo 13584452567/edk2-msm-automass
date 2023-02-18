@@ -23,6 +23,9 @@ jobs:
       matrix:
         device:
           # sm8150
+          - guacamole
+          - guacamoleb
+          - hotdog
           - nabu
           - vayu
           - cepheus
