@@ -23,6 +23,7 @@ jobs:
       matrix:
         device:
           # sm8150
+          # Oneplus
           - guacamole
           - guacamoleb
           - hotdog
